@@ -125,8 +125,9 @@
     background-color: #000;
 }
 
+/* MEDIA QUERY para a versão desktop */
 /* resolução menor para maior */
-@media(min-width: 768px) {
+@media (min-width: 768px) {
     #slider .carousel-caption {
         bottom: 15em;
     }
@@ -144,5 +145,43 @@
     /* subindo os indicadores */
     .carousel-indicators {
         bottom: 7em;
+    }
+}
+
+/* estilo dos MINI BANNERS */
+
+/* espaçamento entre os mini banners e o fim da div (descolar do fim) */
+#mini-banners {
+    margin-bottom: 4em;
+}
+
+/* deixar os mini banners sem ponta */
+#mini-banners .card {
+    padding: 2em 0.3em;
+    border-radius: 0;
+    margin-bottom: 1em;
+}
+
+/* aumentar o tamanho dos ícones */
+#mini-banners i {
+    font-size: 4em;
+}
+
+/* afastar o título do texto */
+#mini-banners .card-title {
+    margin-bottom: 1.5em;
+}
+
+/* afastar o botão do texto */
+#mini-banners .btn {
+    margin-top: 1.5em;
+    padding: 0.6em 1.2em;
+}
+
+/* MEDIA QUERY para a versão desktop */
+/* subir os mini banners para sobrepor os sliders  */
+@media (min-width: 768px) {
+    #mini-banners {
+        margin-top: -6em;
     }
 }
