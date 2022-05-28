@@ -1,0 +1,77 @@
+/* */
+
+/* alterar fonte do projeto para a lato */
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* cor primária do fundo */
+.bg-primary-color {
+    background-color: #FFF;
+}
+
+/* cor secundária do fundo */
+.bg-secondary-color {
+    background-color: #ece8e2;
+}
+
+/* cor escura do fundo */
+.bg-dark-color {
+    background-color: #050505;
+}
+
+/* cor primária da fonte */
+.primary-color {
+    color: #050505;
+}
+
+/* cor secundária da fonte */
+.secundary-color {
+    color: #7a7a7a;
+}
+
+/* estilo da NAVBAR */
+
+/* colocando uma linha no fim da NAVBAR */
+#navbar {
+    border-bottom: 1px solid #7a7a7a;
+}
+
+/* quando passa o curso encima dos links, muda para cor secundária de fonte */
+#navbar a:hover {
+    color: #7a7a7a;
+}
+
+/* destacando o link ativo com uma linha */
+#navbar a.active {
+   border-bottom: 1px solid #050505; 
+}
+
+/* deixar o logo e nome um do lado do outro */
+.navbar-brand {
+    display: flex;
+}
+
+/* editar o tamanho da img do logo */
+.navbar-brand img {
+    width: 40px;
+}
+
+/* título, negrito, tamanho e afastar da img do logo */
+.navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+/* deixar os itens da NAVBAR alinhados, colocar no centro e usar todo o espaço para centralizar */
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* espaçando os itens da NAVBAR (zero encima e embaixo e 1em entre eles nas laterias */
+#navbar-items .nav-item {
+    margin: 0 1em;
+}
