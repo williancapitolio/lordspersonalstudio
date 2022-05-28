@@ -44,7 +44,7 @@
 
 /* destacando o link ativo com uma linha */
 #navbar a.active {
-   border-bottom: 1px solid #050505; 
+    border-bottom: 1px solid #050505;
 }
 
 /* deixar o logo e nome um do lado do outro */
@@ -77,3 +77,72 @@
 }
 
 /* estilo dos SLIDERS */
+
+/* afastar da navbar e afastar os conteúdos que vão ficar embaixo */
+#slider {
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
+
+/* subindo o texto */
+#slider .carousel-caption {
+    bottom: 3em;
+}
+
+/* tamanho do título e sombrear */
+#slider .carousel-caption h5 {
+    font-size: 2.5em;
+    text-shadow: #000 2px 2px;
+}
+
+/* deixar os botões retos sem arredondar na borda */
+.btn {
+    border-radius: 0;
+}
+
+/* ajustar o botão do carousel */
+#slider .btn {
+    padding: 0.3 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+/* selecionar os dois botões de anterior e próximo, alterar a cor e o tamanho */
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: #111;
+    font-size: 3em;
+}
+
+/* deixar os ícones dos botões anterior e próximo e os três debaixo mais acesos */
+.carousel-indicators [data-bs-target] {
+    background-color: #222;
+    opacity: 0.8;
+}
+
+/* destacar o indicador na cor preta */
+.carousel-indicators .active {
+    background-color: #000;
+}
+
+/* resolução menor para maior */
+@media(min-width: 768px) {
+    #slider .carousel-caption {
+        bottom: 15em;
+    }
+
+    #slider .carousel-caption h5 {
+        font-size: 4em;
+        text-shadow: #000 2px 3px;
+    }
+
+    #slider .btn {
+        padding: 0.6 1.6em;
+        font-size: 1.2em;
+    }
+
+    /* subindo os indicadores */
+    .carousel-indicators {
+        bottom: 7em;
+    }
+}
