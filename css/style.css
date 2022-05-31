@@ -288,3 +288,38 @@
         padding: 3.5em;
     }
 }
+
+/* estilo do FOOTER TOP */
+
+/* dar um espaço no final */
+#footer {
+    padding: 3em 2em;
+
+}
+
+/* separar o conteúdo do FOOTER do meio */
+#footer-top {
+    margin-bottom: 2em;
+}
+
+/* mudar a cor da fonte do texto e dos ícones (i) */
+#footer-top,
+#footer-top i {
+    color: #fff;
+}
+
+/* alinhar os ícones a direita */
+#social-icons {
+    text-align: right;
+}
+/* separar um do outro, aumentar a fonte e deixar o cursor no clique  */
+#social-icons i {
+    margin-right: 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/* quando passar o cursor mudar de cor */
+#social-icons i:hover {
+    color: #7a7a7a;
+}
