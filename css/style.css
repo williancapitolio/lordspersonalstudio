@@ -256,3 +256,35 @@
         opacity: 0;
     }
 }
+
+/* estilo do INFO */
+
+/* espaçamento no fim da div e no texto dos dados */
+#info-content {
+    margin-bottom: 4em;
+    padding: 4em 1em;
+}
+
+/* separar o subitulo dos dados numéricos */
+#info-numbers {
+    margin: 1.5em 0;
+}
+
+/* colocar a imagem alinhada com os dados */
+#info-banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+/* aumentar o tamanho dos números */
+#info-numbers h3 {
+    font-size: 3em;
+}
+
+/* dar um espaçamento nos dados na versão desktop */
+@media(min-width: 768px){
+    #info-content {
+        padding: 3.5em;
+    }
+}
