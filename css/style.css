@@ -185,3 +185,74 @@
         margin-top: -6em;
     }
 }
+
+/* estilo dos DESTAQUES */
+
+/* espaçamento para a próxima sessão do site */
+#featured-container {
+    margin-bottom: 4em;
+}
+
+/* tamanho da fonte, espaçamento entre o título e o subtítulo, relativo pq o detalhe será absoluto */
+.title {
+    font-size: 1.75em;
+    margin-bottom: 0.4em;
+    position: relative;
+}
+
+/* pseudo-element entre as sessões dos sliders e dos trabalhos em destaque */
+.title:before {
+    width: 75px;
+    border-top: 4px solid #7a7a7a;
+    content: "";
+    position: absolute;
+    bottom: 2em;
+}
+
+/* distância entre a imagem e o subtítulo */
+#featured-images {
+    margin-top: 2em;
+}
+
+/* posição da imagem relativa e cursor apontando quando passa encima da imagem */
+#featured-images .col-md-4 {
+    position: relative;
+    cursor: pointer;
+}
+
+/* dar transparência a imagem */
+#featured-images .col-md-4:hover > .banner-content {
+    opacity: 0.8;
+}
+
+/* posição do texto da imagem absoluto, texto dentro da imagem */
+#featured-images .banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+/* media query para desktop */
+@media(min-width: 768px) {
+    .title {
+        font-size: 2.4em;
+    }
+
+    .title:before {
+        bottom: 1.5em;
+    }
+
+    /* colocar título da imagem escondido, só aparece quando passa o cursor */
+    #featured-images .banner-content {
+        opacity: 0;
+    }
+}
