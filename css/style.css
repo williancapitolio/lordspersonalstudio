@@ -323,3 +323,47 @@
 #social-icons i:hover {
     color: #7a7a7a;
 }
+
+/* estilo do FOOTER DETAILS */
+
+/* separar do conteúdo debaixo */
+#footer-details {
+    margin-bottom: 3em;
+}
+
+/* configurações para mobile, deixar alinhados um embaixo do outro e com espaçamento */
+#news-container,
+#contact-container,
+#links-container {
+    padding: 0;
+    border: 0;
+    margin-bottom: 2em;
+}
+
+/* cor da fonte do h4 e separar do conteúdo abaixo do título */
+#footer-details h4 {
+    color: #fff;
+    margin-bottom: 1.5em;
+
+}
+
+/* tirar as bordas arredondadas do input */
+#news-container input {
+    border-radius: 0;
+    border: none;
+}
+
+/* afastar os links um dos outros */
+#links-container li {
+    margin-bottom: 0.5em;
+}
+
+/* tirar o sublinhado do link */
+#links-container a {
+    text-decoration: none;
+}
+
+/* quando passar o cursor muda de cor */
+#links-container a:hover {
+    color: #fff;
+}
