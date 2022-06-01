@@ -367,3 +367,36 @@
 #links-container a:hover {
     color: #fff;
 }
+
+/* estilo do FOOTER BOTTOM */
+
+/* criar borda para separar do details */
+#footer-bottom {
+    border-top: 1px solid #7a7a7a;
+    padding-top: 2em;
+}
+
+/* separar o ícone do texto */
+#footer-bottom i {
+    margin-left: 0.3em;
+}
+
+/* alterações para versão desktop */
+@media(min-width: 768px){
+    /* margem do contato para o centro */
+    #news-container {
+        padding-right: 2em;
+    }
+
+    /* espaçamento */
+    #links-container {
+        padding-left: 2em;
+    }
+
+    /* colocar duas linhas entre os containers */
+    #contact-container {
+        padding: 0 2em;
+        border-left: 1px solid #7a7a7a;
+        border-right: 1px solid #7a7a7a;
+    }
+}
