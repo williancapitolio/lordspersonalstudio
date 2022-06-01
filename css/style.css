@@ -289,6 +289,13 @@
     }
 }
 
+/* estilo do MAPA */
+
+/* espaçamento entre o rodapé */
+#map-container {
+    margin-bottom: 4em;
+}
+
 /* estilo do FOOTER TOP */
 
 /* dar um espaço no final */

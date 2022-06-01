@@ -27,15 +27,18 @@
 
     <!-- JavaScript do Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+
+    <!-- JavaScript -->
+    <script src="js/scripts.js" defer></script>
 </head>
 
 <body>
     <!-- NAVBAR início -->
     <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
         <div class="container py-3">
-            <a href="#" class="navbar-brand primary-color">
+            <a href="#logo-nav" class="navbar-brand primary-color">
                 <!-- imagem de logo possui 128px -->
                 <img src="img/lords-logo.jpg" alt="Lord's Personal Studio">
                 <span>Lord's Personal Studio</span>
@@ -48,16 +51,19 @@
             <div class="collapse navbar-collapse" id="navbar-items">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active primary-color" aria-current="page">Início</a>
+                        <a href="#inicio-nav" class="nav-link active primary-color" aria-current="page" id="inicio-nav">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link primary-color">Espaço</a>
+                        <a href="#slider-container" class="nav-link primary-color">Espaço</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link primary-color">Maquinário</a>
+                        <a href="#featured-container" class="nav-link primary-color">Detalhes</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link primary-color">Contatos</a>
+                        <a href="#map-container" class="nav-link primary-color">Localização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#footer" class="nav-link primary-color">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -233,7 +239,8 @@
                                 Estes dados fazem a diferença
                             </h2>
                             <p class="subtitle secondary-color">
-                                Diego Araújo é o Personal Trainer da Academia Lord's Personal Studio. Formado em Educação Física pela UFSJ, turma de 2008. A Lord's Personal Studio possui cerca de:
+                                Diego Araújo é o Personal Trainer da Academia Lord's Personal Studio. Formado em
+                                Educação Física pela UFSJ, turma de 2008. A Lord's Personal Studio possui cerca de:
                             </p>
                         </div>
                         <div class="col-12" id="info-numbers">
@@ -261,6 +268,18 @@
         </div>
     </div>
     <!-- INFO fim -->
+    <!-- MAPA início -->
+    <div class="container" id="map-container">
+        <div class="col-12">
+            <h2 class="title primary-color">
+                Localização
+            </h2>
+            <p class="subtitle secondary-color">
+                Mapa com a localização da Academia
+            </p>
+        </div>
+    </div>
+    <!-- MAPA fim -->
     <!-- FOOTER/RODAPÉ início -->
     <footer class="container-fluid bg-dark-color" id="footer">
         <div class="container">
@@ -328,7 +347,7 @@
                     <div class="row justify-content-between">
                         <div class="col-12 col-md-3">
                             <p class="secondary-color">
-                                Copyright  &copy; 2022 - williancapitolio
+                                Copyright &copy; 2022 - williancapitolio
                             </p>
                         </div>
                         <div class="col-12 col-md-3">
