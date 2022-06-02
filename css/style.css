@@ -296,6 +296,12 @@
     margin-bottom: 4em;
 }
 
+/* mapa */
+#map {
+    height: 360px;
+    width: 50%;
+}
+
 /* estilo do FOOTER TOP */
 
 /* dar um espaço no final */
