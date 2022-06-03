@@ -60,7 +60,7 @@
 /* título, negrito, tamanho e afastar da img do logo */
 .navbar-brand span {
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1em;
     margin-left: 0.5em;
 }
 
@@ -128,6 +128,12 @@
 /* MEDIA QUERY para a versão desktop */
 /* resolução menor para maior */
 @media (min-width: 768px) {
+    .navbar-brand span {
+        font-weight: 700;
+        font-size: 1.5em;
+        margin-left: 0.5em;
+    }
+
     #slider .carousel-caption {
         bottom: 15em;
     }
