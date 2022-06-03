@@ -182,7 +182,7 @@
 /* subir os mini banners para sobrepor os sliders  */
 @media (min-width: 768px) {
     #mini-banners {
-        margin-top: -6em;
+        margin-top: -2.5em;
     }
 }
 
