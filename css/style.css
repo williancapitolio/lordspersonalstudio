@@ -321,13 +321,20 @@
     color: #fff;
 }
 
-/* alinhar os ícones a direita */
+/* alinhar o título ao centro */
+#footer-top-title {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+/* alinhar os ícones ao centro */
 #social-icons {
-    text-align: right;
+    text-align: center;
 }
 /* separar um do outro, aumentar a fonte e deixar o cursor no clique  */
 #social-icons i {
     margin-right: 1em;
+    margin-left: 1em;
     font-size: 1.5em;
     cursor: pointer;
 }
@@ -412,4 +419,24 @@
         border-left: 1px solid #7a7a7a;
         border-right: 1px solid #7a7a7a;
     }
+
+    #footer-top-title {
+        text-align: left;
+    }
+
+    #social-icons {
+        text-align: right;
+    }
+
+    #social-icons i {
+        margin-left: 0;
+    }
 }
+
+@media(max-width: 425px){
+    #social-icons i {
+        margin-left: 0;
+        margin-left: 0;
+    }
+}
+
