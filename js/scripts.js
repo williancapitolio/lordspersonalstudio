@@ -61,18 +61,3 @@ function smoothScrollTo(endX, endY, duration) {
         window.scroll(newX, newY);
     }, 1000 / 60);
 }
-
-/* Mapa Leaflet */
-var Latitude = -20.614547;
-
-var Longitude = -46.052997;
-
-var map = L.map('map').setView([Latitude, Longitude], 17);
-
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-}).addTo(map);
-
-L.marker([Latitude, Longitude]).addTo(map)
-    .bindPopup("Academia Lord's Personal Studio.<br>R. Cel. Lourenço Belo, 625 - 2º Andar")
-    .openPopup();
