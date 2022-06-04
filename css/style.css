@@ -267,16 +267,17 @@
 
 /* espaçamento no fim da div e no texto dos dados */
 #info-content {
-    width: 65%;
     margin-bottom: 4em; /* afastar da proxima sec */
-    margin-left: 1%; /*afastar da img */
     padding: 4em 1em; /* texto dentro versão mobile */
+
     /* border-radius: 10px; arredondar a borda */
+    /* width: 65%; */
+    /* margin-left: 1%; */ /*afastar da img */
 }
 
 /* separar o subitulo dos dados numéricos */
 #info-numbers {
-    margin: 0 0;
+    margin: 1.5em 0;
 }
 
 /* colocar a imagem alinhada com os dados */
@@ -284,20 +285,21 @@
 #info-banner {
     display: flex;
     align-items: center;
-    margin-bottom: 4em;
-    width: 34%;
-    height: 500px;
-    background-color: #333;
+    margin-bottom: 2.5em;
+    /* width: 34%; */
+    /* height: 500px; */
+    /* background-color: #333; */
     /* border-radius: 10px; */
-    outline: 1px solid #7a7a7a;
-    outline-offset: -8px;
-    box-sizing: border-box;
-    box-shadow: 3px 3px 10px rgba(255, 255, 255, .1);
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
+    /* outline: 1px solid #7a7a7a; */
+    /* outline-offset: -8px; */
+    /* box-sizing: border-box; */
+    /* box-shadow: 3px 3px 10px rgba(255, 255, 255, .1); */
+    /* position: relative; */
+    /* cursor: pointer; */
+    /* overflow: hidden; */
 }
 
+/*
 #info-banner .img-fluid {
     position: absolute;
     inset: 0;
@@ -321,6 +323,7 @@
     font-size: 20px;
     text-shadow: 0 0 1px #000;
 }
+*/
 
 /* aumentar o tamanho dos números */
 #info-numbers h3 {
@@ -331,6 +334,10 @@
 @media(min-width: 768px){
     #info-content {
         padding: 3.5em;
+    }
+
+    #info-banner {
+        margin-bottom: 4em;
     }
 }
 
