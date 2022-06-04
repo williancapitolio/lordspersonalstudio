@@ -271,7 +271,7 @@
     margin-bottom: 4em; /* afastar da proxima sec */
     margin-left: 1%; /*afastar da img */
     padding: 4em 1em; /* texto dentro versão mobile */
-    border-radius: 10px; /* arredondar a borda */
+    /* border-radius: 10px; arredondar a borda */
 }
 
 /* separar o subitulo dos dados numéricos */
@@ -288,8 +288,8 @@
     width: 34%;
     height: 500px;
     background-color: #333;
-    border-radius: 10px;
-    outline: 1px solid rgba(255, 255, 255, .1);
+    /* border-radius: 10px; */
+    outline: 1px solid #7a7a7a;
     outline-offset: -8px;
     box-sizing: border-box;
     box-shadow: 3px 3px 10px rgba(255, 255, 255, .1);
@@ -319,7 +319,7 @@
     left: 15px;
     bottom: 15px;
     font-size: 20px;
-    text-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    text-shadow: 0 0 1px #000;
 }
 
 /* aumentar o tamanho dos números */
