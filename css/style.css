@@ -299,6 +299,11 @@
     overflow: hidden;
 }
 
+#info-content .historic {
+    margin-top: 2.5em;
+    
+}
+
 
 #info-banner .img-fluid {
     /* position: absolute; */
@@ -412,7 +417,8 @@
 
 /* separar do conteúdo debaixo */
 #footer-details {
-    margin-bottom: 3em;
+    padding-top: 3em;
+    margin-bottom: 1em;
 }
 
 /* configurações para mobile, deixar alinhados um embaixo do outro e com espaçamento */
@@ -458,6 +464,7 @@
 #footer-bottom {
     border-top: 1px solid #7a7a7a;
     padding-top: 2em;
+    text-align: center;
 }
 
 /* separar o ícone do texto */
