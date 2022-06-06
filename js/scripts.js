@@ -61,3 +61,14 @@ function smoothScrollTo(endX, endY, duration) {
         window.scroll(newX, newY);
     }, 1000 / 60);
 }
+
+/* colocar um x quando clica nos itens da navbar */
+const menuMobile = document.querySelector('.menu-mobile'); // pegando a classe .menu-mobile
+const body = document.querySelector('body'); // pegando a tag body
+
+menuMobile.addEventListener("click", () => { //quando há um clique
+    menuMobile.classList.contains("bi-list") // se na classe .menu-mobile existir um bi-list
+        ? menuMobile.classList.replace("bi-list", "bi-x") //troque o bi-list por um bi-x
+        : menuMobile.classList.replace("bi-x", "bi-list"); //se não troque o bi-x por um bi-list
+    body.classList.toggle("menu-nav-active"); //adicionando a classe no body
+});

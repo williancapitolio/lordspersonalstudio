@@ -76,6 +76,10 @@
     margin: 0 1em;
 }
 
+.menu-nav-active {
+    overflow: hidden;
+}
+
 /* estilo dos SLIDERS */
 
 /* afastar da navbar e afastar os conteúdos que vão ficar embaixo */
