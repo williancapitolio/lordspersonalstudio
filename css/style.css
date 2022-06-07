@@ -279,6 +279,11 @@
     /* margin-left: 1%; */ /*afastar da img */
 }
 
+#info-content h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
 /* separar o subitulo dos dados numéricos */
 #info-numbers {
     margin: 1.5em 0;
