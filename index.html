@@ -1,413 +1,497 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Willian Pereira da Silva">
-    <meta name="keywords" content="Academia, musculação, treino">
-    <meta name="description" content="Site criado como portfólio empresarial da academia Lord's Personal Studio">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Willian Pereira da Silva" />
+    <meta name="keywords" content="Academia, musculação, treino" />
+    <meta
+      name="description"
+      content="Site criado como portfólio empresarial da academia Lord's Personal Studio"
+    />
     <title>Lord's Personal Studio</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png" />
     <!-- Google Fonts - Lato -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- CSS do Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
 
     <!-- Icones do Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
 
     <!-- CSS do proejto-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- JavaScript do Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-        </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- JavaScript -->
     <script src="js/scripts.js" defer></script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- CABEÇALHO início -->
     <header>
-
-        <!-- NAVBAR início -->
-        <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
-            <div class="container py-3">
-                <a href="#logo-nav" class="navbar-brand primary-color">
-                    <img src="img/lords-logo-preto.jpg" alt="Lord's Personal Studio Logo Preto">
-                    <span>Lord's Personal Studio</span>
-                </a>
-                <!-- botão para mobile -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
-                    aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="bi bi-list menu-mobile"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbar-items">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a href="#inicio-nav" class="nav-link primary-color" aria-current="page"
-                                id="inicio-nav">Início</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#featured-container" class="nav-link primary-color">Academia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#info-container" class="nav-link primary-color">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#map-container" class="nav-link primary-color">Localização</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#footer" class="nav-link primary-color">Contato</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- NAVBAR fim -->
-
+      <!-- NAVBAR início -->
+      <nav
+        class="navbar navbar-expand-lg fixed-top bg-primary-color"
+        id="navbar"
+      >
+        <div class="container py-3">
+          <a href="#logo-nav" class="navbar-brand primary-color">
+            <img
+              src="img/lords-logo-preto.jpg"
+              alt="Lord's Personal Studio Logo Preto"
+            />
+            <span>Lord's Personal Studio</span>
+          </a>
+          <!-- botão para mobile -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-items"
+            aria-controls="navbar-items"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list menu-mobile"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-items">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  href="#inicio-nav"
+                  class="nav-link primary-color"
+                  aria-current="page"
+                  id="inicio-nav"
+                  >Início</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#featured-container" class="nav-link primary-color"
+                  >Academia</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#info-container" class="nav-link primary-color"
+                  >Sobre</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#map-container" class="nav-link primary-color"
+                  >Localização</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#footer" class="nav-link primary-color">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- NAVBAR fim -->
     </header>
     <!-- CABEÇALHO fim -->
 
     <!-- CONTEÚDO início -->
     <main>
-
-        <!-- SLIDER início -->
-        <section>
-
-            <div class="container" id="slider-container">
-                <div class="carousel slide" id="slider" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="img/lords-carousel-1.jpg" alt="Slider Lords 1" class="d-block w-100">
-                            <div class="carousel-caption"></div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/lords-carousel-2.jpg" alt="Slider Lords 2" class="d-block w-100">
-                            <div class="carousel-caption"></div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="img/lords-carousel-3.jpg" alt="Slider Lords 3" class="d-block w-100">
-                            <div class="carousel-caption"></div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
-                        <i class="bi bi-chevron-compact-left"></i>
-                        <span class="visually-hidden">Anterior</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
-                        <i class="bi bi-chevron-compact-right"></i>
-                        <span class="visually-hidden">Próximo</span>
-                    </button>
+      <!-- SLIDER início -->
+      <section>
+        <div class="container" id="slider-container">
+          <div class="carousel slide" id="slider" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="img/lords-carousel-1.jpg"
+                  alt="Slider Lords 1"
+                  class="d-block w-100"
+                />
+                <div class="carousel-caption"></div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/lords-carousel-2.jpg"
+                  alt="Slider Lords 2"
+                  class="d-block w-100"
+                />
+                <div class="carousel-caption"></div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/lords-carousel-3.jpg"
+                  alt="Slider Lords 3"
+                  class="d-block w-100"
+                />
+                <div class="carousel-caption"></div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#slider"
+              data-bs-slide="prev"
+            >
+              <i class="bi bi-chevron-compact-left"></i>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#slider"
+              data-bs-slide="next"
+            >
+              <i class="bi bi-chevron-compact-right"></i>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div>
+          <!-- MINI BANNERS início -->
+          <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <div class="card text-center">
+                  <i class="bi bi-bullseye primary-color"></i>
+                  <div class="card-body">
+                    <h5 class="card-title primary-color">
+                      Treinos Personalizados
+                    </h5>
+                    <p class="card-text secondary-color">
+                      Não trabalhamos com ficha, cada aluno possui um Treino
+                      Personalizado de acordo com seus padrões e habilidades
+                    </p>
+                  </div>
                 </div>
-                <!-- MINI BANNERS início -->
-                <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card text-center">
+                  <i class="bi bi-clipboard-pulse primary-color"></i>
+                  <div class="card-body">
+                    <h5 class="card-title primary-color">Avaliações Físicas</h5>
+                    <p class="card-text secondary-color">
+                      Mensalmente todos os alunos recebem Avaliações Físicas,
+                      sem valor extra, para otimizar os resultados e traçar
+                      novos objetivos
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="card text-center">
+                  <i class="bi bi-cart-check primary-color"></i>
+                  <div class="card-body">
+                    <h5 class="card-title primary-color">Planos Diversos</h5>
+                    <p class="card-text secondary-color">
+                      Cada aluno pode escolher o seu tipo de plano, isto é, a
+                      quantidade de vezes por semana e os horários de
+                      preferência de treino
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- MINI BANNERS fim -->
+        </div>
+      </section>
+      <!-- SLIDER fim -->
+
+      <!-- DESTAQUES início -->
+      <section>
+        <div class="container" id="featured-container">
+          <div class="col-12">
+            <h2 class="title primary-color">Academia</h2>
+            <p class="subtitle secondary-color">
+              Para caso tenha alguma dúvida de como é a Lord's Personal Studio,
+              veja como ela é por dentro
+            </p>
+          </div>
+          <div class="col-12" id="featured-images">
+            <div class="row g-4">
+              <div class="col-12 col-md-4">
+                <img
+                  src="img/lords-academia-1.jpg"
+                  alt="Dentro da Lords: Área para treinamento funcional"
+                  class="img-fluid"
+                />
+                <div class="banner-content">
+                  <p class="secondary-color">Treinamento Funcional</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <img
+                  src="img/lords-academia-2.jpg"
+                  alt="Dentro da Lords: Área para treinamento de luta"
+                  class="img-fluid"
+                />
+                <div class="banner-content">
+                  <p class="secondary-color">Lutas</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <img
+                  src="img/lords-academia-3.jpg"
+                  alt="Dentro da Lords: Área das esteiras"
+                  class="img-fluid"
+                />
+                <div class="banner-content">
+                  <p class="secondary-color">Esteiras</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <img
+                  src="img/lords-academia-4.jpg"
+                  alt="Dentro da Lords: Área final da esquerda"
+                  class="img-fluid"
+                />
+                <div class="banner-content">
+                  <p class="secondary-color">Final Esquerda</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <img
+                  src="img/lords-academia-5.jpg"
+                  alt="Dentro da Lords: Área final da direita"
+                  class="img-fluid"
+                />
+                <div class="banner-content">
+                  <p class="secondary-color">Final Direita</p>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <img
+                  src="img/lords-academia-6.jpg"
+                  alt="Registro do pôr do sol de dentro da Lords"
+                  class="img-fluid"
+                />
+                <div class="banner-content">
+                  <p class="secondary-color">Pôr do sol</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- DESTAQUES fim -->
+
+      <!-- INFO início -->
+      <section>
+        <div class="container" id="info-container">
+          <div class="col-12">
+            <h2 class="title primary-color">Sobre</h2>
+            <p class="subtitle secondary-color">
+              Saiba mais sobre algumas informações da academia
+            </p>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-md-5" id="info-banner">
+                <img
+                  src="img/lords-personal.jpg"
+                  alt="Diego Araujo, Personal Trainer da Lords"
+                  class="img-fluid"
+                />
+                <h3 class="title">Diego Araujo - Personal Trainer</h3>
+              </div>
+              <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
+                <div class="row">
+                  <div class="col-12">
+                    <h2 class="title primary-color">
+                      Personal Trainer e Proprietário
+                    </h2>
+                    <article class="subtitle secondary-color">
+                      Diego Araújo é o Personal Trainer e Proprietário da
+                      Academia Lord's Personal Studio. Formado em Educação
+                      Física pela UFSJ, em 2008 e Pós Graduado em Musculação e
+                      Condicionamento Físico pela Universidade Gama Filho.
+                    </article>
+                  </div>
+                  <div class="col-12 historic">
+                    <h2 class="title primary-color">Histórico</h2>
+                    <article class="subtitle secondary-color">
+                      A Lord's Personal Studio foi fundada em 15/10/2014. O seu
+                      nome em inglês seria traduzido para o português como
+                      Personal Estudio do Senhor e o logo, que é um leão,
+                      representa o leão da Tribo de Judá.
+                    </article>
+                  </div>
+
+                  <div class="col-12" id="info-numbers">
                     <div class="row">
-                        <div class="col-12 col-md-4">
-                            <div class="card text-center">
-                                <i class="bi bi-bullseye primary-color"></i>
-                                <div class="card-body">
-                                    <h5 class="card-title primary-color">Treinos Personalizados</h5>
-                                    <p class="card-text secondary-color">
-                                        Não trabalhamos com ficha, cada aluno possui um Treino Personalizado de acordo
-                                        com
-                                        seus
-                                        padrões e habilidades
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <div class="card text-center">
-                                <i class="bi bi-clipboard-pulse primary-color"></i>
-                                <div class="card-body">
-                                    <h5 class="card-title primary-color">Avaliações Físicas</h5>
-                                    <p class="card-text secondary-color">
-                                        Mensalmente todos os alunos recebem Avaliações Físicas, sem valor extra, para
-                                        otimizar
-                                        os resultados e traçar novos objetivos
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <div class="card text-center">
-                                <i class="bi bi-cart-check primary-color"></i>
-                                <div class="card-body">
-                                    <h5 class="card-title primary-color">Planos Diversos</h5>
-                                    <p class="card-text secondary-color">
-                                        Cada aluno pode escolher o seu tipo de plano, isto é, a quantidade de vezes por
-                                        semana e
-                                        os horários de preferência de treino
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                      <h2 class="title primary-color">Dados</h2>
+                      <div class="col-4">
+                        <h3 class="primary-color">8</h3>
+                        <p class="secondary-color">Anos</p>
+                      </div>
+                      <div class="col-4">
+                        <h3 class="primary-color">40</h3>
+                        <p class="secondary-color">Aparelhos</p>
+                      </div>
+                      <div class="col-4">
+                        <h3 class="primary-color">350</h3>
+                        <p class="secondary-color">Alunos</p>
+                      </div>
                     </div>
+                  </div>
                 </div>
-                <!-- MINI BANNERS fim -->
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- INFO fim -->
 
-        </section>
-        <!-- SLIDER fim -->
-
-        <!-- DESTAQUES início -->
-        <section>
-
-            <div class="container" id="featured-container">
-                <div class="col-12">
-                    <h2 class="title primary-color">
-                        Academia
-                    </h2>
-                    <p class="subtitle secondary-color">
-                        Para caso tenha alguma dúvida de como é a Lord's Personal Studio, veja como ela é por dentro
-                    </p>
-                </div>
-                <div class="col-12" id="featured-images">
-                    <div class="row g-4">
-                        <div class="col-12 col-md-4">
-                            <img src="img/lords-academia-1.jpg" alt="Dentro da Lords: Área para treinamento funcional"
-                                class="img-fluid">
-                            <div class="banner-content">
-                                <p class="secondary-color">Treinamento Funcional</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <img src="img/lords-academia-2.jpg" alt="Dentro da Lords: Área para treinamento de luta"
-                                class="img-fluid">
-                            <div class="banner-content">
-                                <p class="secondary-color">Lutas</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <img src="img/lords-academia-3.jpg" alt="Dentro da Lords: Área das esteiras"
-                                class="img-fluid">
-                            <div class="banner-content">
-                                <p class="secondary-color">Esteiras</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <img src="img/lords-academia-4.jpg" alt="Dentro da Lords: Área final da esquerda"
-                                class="img-fluid">
-                            <div class="banner-content">
-                                <p class="secondary-color">Final Esquerda</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <img src="img/lords-academia-5.jpg" alt="Dentro da Lords: Área final da direita"
-                                class="img-fluid">
-                            <div class="banner-content">
-                                <p class="secondary-color">Final Direita</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <img src="img/lords-academia-6.jpg" alt="Registro do pôr do sol de dentro da Lords"
-                                class="img-fluid">
-                            <div class="banner-content">
-                                <p class="secondary-color">Pôr do sol</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!-- MAPA início -->
+      <section>
+        <div class="container" id="map-container">
+          <div class="col-12">
+            <h2 class="title primary-color">Localização</h2>
+            <p class="subtitle secondary-color">
+              Mapa com a localização da Academia
+            </p>
+            <div class="map-responsive">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14937.390014445791!2d-46.0529871!3d-20.6146877!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1aadca0d5c08e256!2sLORD&#39;S%20PERSONAL%20STUDIO!5e0!3m2!1spt-BR!2sbr!4v1654301009955!5m2!1spt-BR!2sbr"
+                width="50%"
+                height="360"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen
+                loading="lazy"
+                aria-hidden="false"
+                tabindex="0"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
-
-        </section>
-        <!-- DESTAQUES fim -->
-
-        <!-- INFO início -->
-        <section>
-
-            <div class="container" id="info-container">
-                <div class="col-12">
-                    <h2 class="title primary-color">
-                        Sobre
-                    </h2>
-                    <p class="subtitle secondary-color">
-                        Saiba mais sobre algumas informações da academia
-                    </p>
-                </div>
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-12 col-md-5 " id="info-banner">
-                            <img src="img/lords-personal.jpg" alt="Diego Araujo, Personal Trainer da Lords"
-                                class="img-fluid">
-                            <h3 class="title">Diego Araujo - Personal Trainer</h3>
-                        </div>
-                        <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
-                            <div class="row">
-                                <div class="col-12">
-                                    <h2 class="title primary-color">
-                                        Personal Trainer e Proprietário
-                                    </h2>
-                                    <article class="subtitle secondary-color">
-                                        Diego Araújo é o Personal Trainer e Proprietário da Academia Lord's Personal Studio. Formado em
-                                        Educação Física pela UFSJ, em 2008 e Pós Graduado em Musculação e Condicionamento Físico pela Universidade Gama Filho.
-                                    </article>
-                                </div>
-                                <div class="col-12 historic">
-                                    <h2 class="title primary-color">
-                                        Histórico
-                                    </h2>
-                                    <article class="subtitle secondary-color">
-                                        A Lord's Personal Studio foi fundada em 15/10/2014. O seu nome em inglês seria
-                                        traduzido
-                                        para o português como Personal Estudio do Senhor e o logo, que é um leão,
-                                        representa
-                                        o
-                                        leão da Tribo de Judá.
-                                    </article>
-                                </div>
-
-                                <div class="col-12" id="info-numbers">
-                                    <div class="row">
-                                        <h2 class="title primary-color">
-                                            Dados
-                                        </h2>
-                                        <div class="col-4">
-                                            <h3 class="primary-color">8</h3>
-                                            <p class="secondary-color">Anos</p>
-                                        </div>
-                                        <div class="col-4">
-                                            <h3 class="primary-color">40</h3>
-                                            <p class="secondary-color">Aparelhos</p>
-                                        </div>
-                                        <div class="col-4">
-                                            <h3 class="primary-color">350</h3>
-                                            <p class="secondary-color">Alunos</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!-- INFO fim -->
-
-        <!-- MAPA início -->
-        <section>
-
-            <div class="container" id="map-container">
-                <div class="col-12">
-                    <h2 class="title primary-color">
-                        Localização
-                    </h2>
-                    <p class="subtitle secondary-color">
-                        Mapa com a localização da Academia
-                    </p>
-                    <div class="map-responsive">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14937.390014445791!2d-46.0529871!3d-20.6146877!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1aadca0d5c08e256!2sLORD&#39;S%20PERSONAL%20STUDIO!5e0!3m2!1spt-BR!2sbr!4v1654301009955!5m2!1spt-BR!2sbr"
-                            width="50%" height="360" frameborder="0" style="border:0;" allowfullscreen loading="lazy"
-                            aria-hidden="false" tabindex="0" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!-- MAPA fim -->
-
+          </div>
+        </div>
+      </section>
+      <!-- MAPA fim -->
     </main>
     <!-- CONTEÚDO fim -->
 
     <!-- FOOTER/RODAPÉ início -->
     <footer class="container-fluid bg-dark-color" id="footer">
-
-        <div class="container">
-            <div class="row">
-                <!-- FOOTER TOP início -->
-                <div class="col-12" id="footer-top">
-                    <div class="row justify-content-between">
-                        <div class="col-12 col-md-6" id="footer-top-title">
-                            <h2>Lord's Personal Studio</h2>
-                        </div>
-                        <div class="col-12 col-md-6" id="social-icons">
-                            <a href="https://api.whatsapp.com/send?phone=5537999417712&text=Ol%C3%A1!%20Estou%20te%20enviado%20esta%20mensagem%20atrav%C3%A9s%20do%20site!%20Gostaria%20de%20uma%20informa%C3%A7%C3%A3o%3A%20"
-                                target="_blank"><i class="bi bi-whatsapp"></i></a>
-                            <a href="tel:+5537999417712" target="_blank"><i class="bi bi-telephone"></i></a>
-                            <a href="https://www.instagram.com/lordspersonalstudio/" target="_blank"><i
-                                    class="bi bi-instagram"></i></a>
-                            <a href="https://pt-br.facebook.com/pages/category/Gym-Physical-Fitness-Center/Lords-Personal-Studio-262373310773062/"
-                                target="_blank"><i class="bi bi-facebook"></i></a>
-                            <a href="mailto:flavinhasort@gmail.com.br" target="_blank"><i
-                                    class="bi bi-envelope"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- FOOTER TOP fim -->
-                <!-- FOOTER DETAILS início -->
-                <div class="col-12" id="footer-details">
-                    <div class="row">
-                        <div class="col-12 col-md-4" id="news-container">
-                            <h4>Horário de Funcionamento</h4>
-                            <h4 class="dias-semana">De Segunda a Sexta</h4>
-                            <table class="table table-dark table-hover table-horario">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Manhã</th>
-                                        <th scope="col">Tarde/Noite</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>06:00 às 10:00</td>
-                                        <td>15:00 às 20:00</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="col-12 col-md-4" id="contact-container">
-                            <h4>Formas de contato</h4>
-                            <p class="secondary-color">(37)99941-7712</p>
-                            <p class="secondary-color">flavinhasort@gmail.com.br</p>
-                        </div>
-                        <div class="col-12 col-md-4" id="links-container">
-                            <div class="row">
-                                <h4>Como chegar</h4>
-                                <div class="col-12">
-                                    <ul class="list-unstyled">
-                                        <li>
-                                            <p class="secondary-color">R. Cel. Lourenço Belo, 625 - 2º Andar, Capitólio
-                                                - MG, 37930-000</p>
-                                        </li>
-                                        <li><a href="https://goo.gl/maps/dbcJfBdFEbHEUFDv9" target="_blank"
-                                                class="secondary-color">Clique para seguir o endereço</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- FOOTER DETAILS fim -->
-                <!-- FOOTER BOTTOM início -->
-                <div class="col-12" id="footer-bottom">
-                    <div class="row">
-                        <div class="col-12" id="footer-bottom-copy">
-                            <a href="#" target="_blank">Copyright &copy; 2022 - williancapitolio</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- FOOTER BOTTOM fim -->
+      <div class="container">
+        <div class="row">
+          <!-- FOOTER TOP início -->
+          <div class="col-12" id="footer-top">
+            <div class="row justify-content-between">
+              <div class="col-12 col-md-6" id="footer-top-title">
+                <h2>Lord's Personal Studio</h2>
+              </div>
+              <div class="col-12 col-md-6" id="social-icons">
+                <a
+                  href="https://api.whatsapp.com/send?phone=5537999417712&text=Ol%C3%A1!%20Estou%20te%20enviado%20esta%20mensagem%20atrav%C3%A9s%20do%20site!%20Gostaria%20de%20uma%20informa%C3%A7%C3%A3o%3A%20"
+                  target="_blank"
+                  ><i class="bi bi-whatsapp"></i
+                ></a>
+                <a href="tel:+5537999417712" target="_blank"
+                  ><i class="bi bi-telephone"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/lordspersonalstudio/"
+                  target="_blank"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a
+                  href="https://pt-br.facebook.com/pages/category/Gym-Physical-Fitness-Center/Lords-Personal-Studio-262373310773062/"
+                  target="_blank"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="mailto:flavinhasort@gmail.com.br" target="_blank"
+                  ><i class="bi bi-envelope"></i
+                ></a>
+              </div>
             </div>
+          </div>
+          <!-- FOOTER TOP fim -->
+          <!-- FOOTER DETAILS início -->
+          <div class="col-12" id="footer-details">
+            <div class="row">
+              <div class="col-12 col-md-4" id="news-container">
+                <h4>Horário de Funcionamento</h4>
+                <h4 class="dias-semana">De Segunda a Sexta</h4>
+                <table class="table table-dark table-hover table-horario">
+                  <thead>
+                    <tr>
+                      <th scope="col">Manhã</th>
+                      <th scope="col">Tarde/Noite</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>06:00 às 10:00</td>
+                      <td>15:00 às 20:00</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="col-12 col-md-4" id="contact-container">
+                <h4>Formas de contato</h4>
+                <p class="secondary-color">(37)99941-7712</p>
+                <p class="secondary-color">flavinhasort@gmail.com.br</p>
+              </div>
+              <div class="col-12 col-md-4" id="links-container">
+                <div class="row">
+                  <h4>Como chegar</h4>
+                  <div class="col-12">
+                    <ul class="list-unstyled">
+                      <li>
+                        <p class="secondary-color">
+                          R. Cel. Lourenço Belo, 625 - 2º Andar, Capitólio - MG,
+                          37930-000
+                        </p>
+                      </li>
+                      <li>
+                        <a
+                          href="https://goo.gl/maps/dbcJfBdFEbHEUFDv9"
+                          target="_blank"
+                          class="secondary-color"
+                          >Clique para seguir o endereço</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- FOOTER DETAILS fim -->
+          <!-- FOOTER BOTTOM início -->
+          <div class="col-12" id="footer-bottom">
+            <div class="row">
+              <div class="col-12" id="footer-bottom-copy">
+                <a href="#" target="_blank"
+                  >Copyright &copy; 2022 - williancapitolio</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- FOOTER BOTTOM fim -->
         </div>
-
+      </div>
     </footer>
     <!-- FOOTER/RODAPÉ fim -->
-
-</body>
-
+  </body>
 </html>
